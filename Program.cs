@@ -1,13 +1,14 @@
 ﻿using System;
 
-namespace helloworld
+namespace arraybasic
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("true");
-            Console.WriteLine("false");
+            string firstName = "Bob";
+int widgetsPurchased = 7;
+Console.WriteLine($"{firstName} purchased {widgetsPurchased} widgets.");
         }
     }
 }
